@@ -1,0 +1,16 @@
+{
+    "name": "Counter",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+        "jquery": "^3.2.1",
+        "lowdb": "^0.16.2"
+    },
+    "scripts": {
+        "start": "./node_modules/.bin/electron ."
+    },
+    "author": "Kunal Kakade",
+    "devDependencies": {
+        "electron-prebuilt": "^1.2.7"
+    }
+}

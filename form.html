@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Counter 1.0.0</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        window.jQuery = window.$ = require('jquery');
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form class="form-horizontal">
+        <fieldset>
+            <legend>Add Series</legend>
+            <div class="form-group">
+                <label for="input" class="col-lg-2 control-label">Series Name</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputname" placeholder="name">
+                </div>
+                <label for="input" class="col-sm-2 control-label">Season</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="inputseason" placeholder="1">
+                </div>
+
+                <label for="input" class="col-sm-2 control-label">Episode</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="inputepisode" placeholder="1">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="reset" class="btn btn-default">reset</button>
+                    <button type="submit" id="form_smt" class="btn btn-primary" onclick="getdata()">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

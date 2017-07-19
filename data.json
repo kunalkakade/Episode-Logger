@@ -1,0 +1,75 @@
+{
+    "series": [{
+            "id": 1,
+            "name": "Days Anime",
+            "season": "1",
+            "episode": "17",
+            "time": 0,
+            "online": true,
+            "url": "https://gogoanime.io/days-tv-episode-"
+        },
+        {
+            "id": 2,
+            "name": "House of cards",
+            "season": "4",
+            "episode": "13",
+            "time": 0,
+            "online": false,
+            "url": "hoc"
+        },
+        {
+            "id": 3,
+            "name": "Narcos",
+            "season": "2",
+            "episode": "10",
+            "time": 0,
+            "online": false,
+            "url": "narcos.file"
+        },
+        {
+            "id": 4,
+            "name": "How I met your mother",
+            "season": "1",
+            "episode": "13",
+            "time": 0,
+            "online": false,
+            "url": "HIMYM.file"
+        },
+        {
+            "id": 5,
+            "name": "Silicon Valley",
+            "season": "4",
+            "episode": "10",
+            "time": 0,
+            "online": false,
+            "url": "HIMYM.file"
+        },
+        {
+            "id": 6,
+            "name": "haikyuu!! Anime",
+            "season": "3",
+            "episode": "10",
+            "time": 0,
+            "online": true,
+            "url": "HIMYM.file"
+        },
+        {
+            "id": 7,
+            "name": "Limitless",
+            "season": "1",
+            "episode": "22",
+            "time": 0,
+            "online": false,
+            "url": "HIMYM.file"
+        },
+        {
+            "id": 8,
+            "name": "WestWorld",
+            "season": "1",
+            "episode": "10",
+            "time": 0,
+            "online": false,
+            "url": "HIMYM.file"
+        }
+    ]
+}
